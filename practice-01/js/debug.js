@@ -5,7 +5,7 @@ const completedText = "3";
 const additionalText = "2";
 
 const completedTotal = Number(completedText) + Number(additionalText);
-const remainingTasks = plannedText - completedTotal;
+const remainingTasks = Number(plannedText) - completedTotal;
 
 console.log("Выполнено:", completedTotal);
 console.log("Осталось:", remainingTasks);
